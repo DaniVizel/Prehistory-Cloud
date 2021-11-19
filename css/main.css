@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#page {
+	width: 11in;
+	height: 17in;
+	border: 1px solid #000;
+	transform-origin: 50% 0%;	
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+
+}
+
+@media print {
+
+	#page {
+		border: none!important; /*overide the the border around the poster when you print*/
+		transform: scale(1)!important; /*override the page scaling*/
+		
+
+	}
+
+}
+
+/*** DELETE AND EDIT CONTENT HERE ***/ 
+#layer1 {
+	z-index: 100;
+}
+
+.circle {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	border-radius: 50%;
+}
+.one {
+	left: -100px;
+	bottom: -150px;
+	width: 500px;
+	height: 500px;
+}
+.two {
+	left: 400px;
+	bottom: -100px;
+}
+.three {
+	left: -60px;
+	top: 1180px;
+	width: 200px;
+	height: 200px;
+}
+.four {
+	left: 600px;
+	bottom: -180px;
+	width: 320px;
+}
+.five {
+	left: 800px;
+	bottom: -100px
+}
+.six {
+	width: 100px;
+	height: 100px;
+	left: 980px;
+	bottom: 140px;
+}
+.seven {
+	width: 100px;
+	height: 100px;
+	left: 630px;
+	bottom: 70px;
+}
+.eight {
+	left: 180px;
+	bottom: -70px;
+	width: 300px;
+	height: 300px;
+
+}
+.nine {
+	left: 720px;
+	width: 150px;
+	height: 150px;
+	top: 20px;
+}
+.ten {
+	
+	left: 770px;
+	width: 200px;
+	height: 200px;
+	top: 20px;
+}
+.eleven {
+	left: 920px;
+	width: 120px;
+	height: 120px;
+	top: 70px;
+}
+.twelve {
+	left: 690px;
+	width: 100px;
+	height: 100px;
+	top: 50px;
+}
+#layer2{
+	background-color: black;
+	opacity: 60%;
+	z-index: 50;
+}
+.thirteen {
+	bottom: 300px;
+	width: 250px;
+	height: 250px;
+}
+.fourteen {
+	left: -150px;
+	bottom: 400px;
+}
+.fifteen {
+	width: 500px;
+	height: 500px;
+	left: 530px;
+	bottom: 30px;
+}
+.sixteen {
+	left: 850px;
+	bottom: 400px;
+}
+.seventeen {
+	left: 870px;
+	bottom: 200px;
+}
+.eighteen {
+	width: 160px;
+	height: 160px;
+	left: 960px;
+	bottom: 610px;
+}
+.nineteen {
+	left: 160px;
+	bottom: 130px;
+	width: 350px;
+	height: 350px;
+}
+.twenty {
+	left: 450px;
+	bottom: 200px;
+	width: 250px;
+	height: 250px;
+}
+.twenty1 {
+	left: 400px;
+	bottom: 130px;
+	width: 250px;
+	height: 250px;
+}
+.twenty2 {
+	top: -100px;
+	left: -100px;
+	width: 400px;
+	height: 400px;
+}
+.twenty3 {
+	top: -100px;
+	left: 220px;
+	width: 200px;
+	height: 200px;
+
+	
+}
+.twenty4 {
+	top: 100px;
+	left: -220px;
+	
+}
+.twenty5 {
+	top: -220px;
+	left: 380px;
+	
+}
+.twenty6 {
+	top: -230px;
+	left: 720px;
+	width: 400px;
+	height: 400px;
+	
+}
+.twenty7 {
+	top: -90px;
+	left: 630px;
+	width: 120px;
+	height: 120px;
+	
+}
+.twenty8 {
+	top: 220px;
+	left: 30px;
+	width: 120px;
+	height: 120px;
+	
+}
+.twenty9 {
+	top: -70px;
+	left: 1010px;
+	width: 400px;
+	height: 400px;
+	
+}
+
+.eye-wrap {
+	position: absolute;
+	width: 185px;
+	height: 130px;
+	/* border: 2px solid pink; */
+}
+.eye {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background-color: white;
+	border-radius: 5% 50% 5% 50%;
+	transform: rotate(-45deg);
+	left: 30px;
+}
+.pupil {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: black;
+	box-shadow: 0 0 0 15px rgb(83, 83, 83),
+	0 0 0 20px rgb(134, 134, 134);
+	left: 50%;
+	transform: translate(-50%);
+	top: -60%;
+}
+.a {
+	margin-left: 8px;
+	margin-top: 9px;
+}
+.eye-wrap.a {
+	left: 110px;
+	top: 0px;
+	transform: scale(0.7);
+}
+.b {
+	margin-left: 8px;
+	margin-top: 3px;
+}
+.eye-wrap.b {
+	left: 0px;
+	top: 120px;
+	transform: scale(0.9);
+}
+
+
